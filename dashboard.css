@@ -1,0 +1,104 @@
+/* Estilos para el Dashboard */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ebebeb;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #dbdbdb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+}
+
+/* Estilos para el Dashboard */
+#lists {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#trips-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#trips-list li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+}
+
+#show-more-btn {
+    padding: 10px 20px;
+    background-color: #babd27;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+#show-more-btn:hover {
+    background-color: #86881a;
+}
+
+#logout-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px 20px 0 0;
+    background-color: #ff0000;
+}
+
+#logout-btn:hover {
+    background-color: #b90808
+}
+
+button {
+    
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+button:hover {
+    background-color: #880303;
+}
+
